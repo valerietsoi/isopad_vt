@@ -1,7 +1,9 @@
 
 See original isopad [here](https://github.com/keyboard-magpie/isopad)
 
-Changes
+
+
+Changes made from the original isopad.
 
 | from | to |
 |--- | --- |
@@ -9,3 +11,6 @@ Changes
 | LED | LED removed |
 | solder MX | hotswap MX |
 | pcb stabs | plate stabs | 
+
+
+1.2 mm pcb

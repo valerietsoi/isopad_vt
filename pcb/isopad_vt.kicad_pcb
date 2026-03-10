@@ -100,7 +100,7 @@
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap ISOEnter 180deg")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap ISOEnter 180deg")
 		(property "Reference" "S1"
-			(at 0 -8 360)
+			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "28a9e1b0-44e8-46b4-88ec-ef05a3e8f616")
 			(effects
@@ -111,7 +111,7 @@
 			)
 		)
 		(property "Value" "Keyswitch"
-			(at 0 8 360)
+			(at 0 8 0)
 			(layer "F.Fab")
 			(uuid "29f8d401-d2d9-4062-84d1-eca2827dba1f")
 			(effects
@@ -122,7 +122,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_ISOEnter_180deg"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "334c3e5e-aab9-4826-8716-e9cf747bbd2f")
@@ -134,7 +134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ff062073-a0f5-4790-b60f-e4053d8bbd33")
@@ -146,7 +146,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "84c47051-7fc6-4183-b9ae-2f32b85a2535")
@@ -728,7 +728,7 @@
 			(uuid "26ee6ebc-8f22-4c3d-8f3c-97ab68dd6038")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ef41e762-553f-4e6f-84b4-6346dcb4a269")
 			(effects
@@ -1197,8 +1197,8 @@
 		(uuid "01ee74bd-e545-45bd-9171-21f86e8f9402")
 	)
 	(gr_line
-		(start 134.540625 72.628125)
-		(end 139.303125 72.628125)
+		(start 135.540625 72.628125)
+		(end 138.303125 72.628125)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1217,9 +1217,31 @@
 		(layer "Edge.Cuts")
 		(uuid "20faea3b-598c-4f0c-b63d-8ca70c212783")
 	)
+	(gr_arc
+		(start 140.303125 91.678125)
+		(mid 139.596018 91.385232)
+		(end 139.303125 90.678125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2652b8f8-c64c-4585-b799-65602da59d91")
+	)
+	(gr_arc
+		(start 160.734375 90.678125)
+		(mid 160.441471 91.385207)
+		(end 159.734375 91.678125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3c6ea16a-508a-47d2-a3c7-03f7e223416f")
+	)
 	(gr_line
-		(start 134.540625 55.959375)
-		(end 134.540625 72.628125)
+		(start 134.540625 56.959375)
+		(end 134.540625 71.628125)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1228,8 +1250,8 @@
 		(uuid "491e99bf-789c-4574-8622-e5200fc9ce36")
 	)
 	(gr_line
-		(start 139.303125 91.678125)
-		(end 160.734375 91.678125)
+		(start 140.303125 91.678125)
+		(end 159.734375 91.678125)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1237,9 +1259,31 @@
 		(layer "Edge.Cuts")
 		(uuid "5106349e-450e-4e4a-8bce-713272b4a3bb")
 	)
+	(gr_arc
+		(start 159.734375 55.959375)
+		(mid 160.441482 56.252268)
+		(end 160.734375 56.959375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "63dc3c40-cde5-4f9e-bb56-001eb8721356")
+	)
+	(gr_arc
+		(start 134.540625 56.959375)
+		(mid 134.833518 56.252268)
+		(end 135.540625 55.959375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "664c5dab-80c6-4a28-877b-bbaeab4b6b2c")
+	)
 	(gr_line
-		(start 160.734375 55.959375)
-		(end 134.540625 55.959375)
+		(start 159.734375 55.959375)
+		(end 135.540625 55.959375)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1258,6 +1302,17 @@
 		(layer "Edge.Cuts")
 		(uuid "7cf8cbda-b55b-432f-866e-96c850c28bfa")
 	)
+	(gr_arc
+		(start 138.303125 72.628125)
+		(mid 139.010232 72.921018)
+		(end 139.303125 73.628125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a29c5040-7afb-485e-8c06-852b11d2fbac")
+	)
 	(gr_circle
 		(center 136.921875 70.246875)
 		(end 137.921875 70.246875)
@@ -1268,6 +1323,17 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "bb2da276-457d-41dc-9483-25992ff96c33")
+	)
+	(gr_arc
+		(start 135.540625 72.628125)
+		(mid 134.833518 72.335232)
+		(end 134.540625 71.628125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d4f61bb8-0e44-4f1c-a085-90828697a8a9")
 	)
 	(gr_circle
 		(center 136.921875 58.340625)
@@ -1281,8 +1347,8 @@
 		(uuid "e09ea894-43da-41b2-9643-4169a298bf55")
 	)
 	(gr_line
-		(start 139.303125 72.628125)
-		(end 139.303125 91.678125)
+		(start 139.303125 73.628125)
+		(end 139.303125 90.678125)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1291,14 +1357,26 @@
 		(uuid "e8483f60-d7c7-404e-bd67-527d19984676")
 	)
 	(gr_line
-		(start 160.734375 91.678125)
-		(end 160.734375 55.959375)
+		(start 160.734375 90.678125)
+		(end 160.734375 56.959375)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "f3e11664-72ce-471c-8e19-5fdb6cac762e")
+	)
+	(gr_text "vtsoi 2026"
+		(at 145.851685 90.487576 0)
+		(layer "F.SilkS")
+		(uuid "aa2b6d39-bf3c-4384-b8ac-b9ba489e65bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 157.043563 59.494109)
