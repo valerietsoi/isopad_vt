@@ -15,6 +15,7 @@ Changes made from the original isopad.
 
 1.2 mm pcb
 
+<br>
 
 ## pics
 | | |
@@ -22,8 +23,26 @@ Changes made from the original isopad.
 | <img src="images/IMG_0993.png" alt="drawing" width="400"/> | <img src="images/IMG_1023.png" alt="drawing" width="400"/>|
 | <img src="images/IMG_0995.png" alt="drawing" width="400"/> | <img src="images/IMG_0996.png" alt="drawing" width="400"/> |
 
+<br>
+
+## materials
+| | |
+| --- | --- |
+| 1 | pcb |
+| 1 | rp2040 zero |
+| 1 | MX HS socket<br>(CPG151101S11) |
+| 1 | MX switch | 
+| 1 | ISO enter keycap | 
+| 1 | case (top and bottom) | 
+| 8 | M2x5mm heatset inserts | 
+| 4 | M2x3mm screws |
+| 4 | M2x8mm screws |
+
+<br>
+
 ## pending
 - make qmk/vial firmware available on top of current morse code
 - add bootmagic 
 
 - add option for top case with plate stabs compatability
+- think about case weight
