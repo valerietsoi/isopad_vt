@@ -25,7 +25,7 @@ Changes made from the original isopad.
 
 <br>
 
-## materials
+## bom
 | | |
 | --- | --- |
 | 1 | pcb |
